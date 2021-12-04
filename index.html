@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="carousel-wrapper">
+      <div class="content-block">
+        <div class="content-block-item active">
+          <div class="content-block-item__title">Love</div>
+          <p>Love text</p>
+        </div>
+        <div class="content-block-item">
+          <div class="content-block-item__title">Play</div>
+          <p>Play text</p>
+        </div>
+        <div class="content-block-item">
+          <div class="content-block-item__title">Dev</div>
+          <p>Dev text</p>
+        </div>
+      </div>
+      <ul class="main-carousel">
+        <li class="main-carousel-item active">
+          <div class="main-carousel-item__slide">
+            <img src="./img/slide.png" alt="slide">
+          </div>
+        </li>
+        <li class="main-carousel-item">
+          <div class="main-carousel-item__slide">
+            <img src="./img/slide-second.png" alt="slide">
+          </div>
+        </li>
+        <li class="main-carousel-item">
+          <div class="main-carousel-item__slide">
+            <img src="./img/slide-third.png" alt="slide">
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.circular-carousel.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
